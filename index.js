@@ -1,7 +1,7 @@
 const fs = require("fs");
-const pdf = require("pdf-parse"); //  ei module install dite hobe 'npm i pdf-parse'
+const pdf = require("pdf-parse"); //  ei package install dite hobe 'npm i pdf-parse'
 
-const pdfPath = "./PhonePe_Statement_Jun2023_Jun2024.pdf";
+const pdfPath = "./PhonePe_Statement_Jun2023_Jun2024-1.pdf";
 let dataBuffer = fs.readFileSync(pdfPath);
 
 
